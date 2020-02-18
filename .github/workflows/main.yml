@@ -22,6 +22,6 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         # Artifact name
-        name: dist/form.exe
+        name: form.exe
         # Directory containing files to upload
-        path: dist/form.exe
+        path: form.exe
