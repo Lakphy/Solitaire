@@ -19,7 +19,7 @@ jobs:
         git commit -m '2233'
         git push origin master
     - name : Upload artifact
-        uses: actions/upload-artifact@master
+        uses: actions/checkout@v2
         with:
-        name: OpenWrt
-        path: openwrt/bin
+          name: OpenWrt
+          path: openwrt/bin
