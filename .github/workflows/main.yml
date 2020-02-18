@@ -16,7 +16,8 @@ jobs:
         pip install pyinstaller
         pyinstaller -F form.py
         cd dist
-        dir
+        copy form.exe ../form.exe
+        cd ..
         dir
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
