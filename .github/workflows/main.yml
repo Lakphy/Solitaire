@@ -15,3 +15,4 @@ jobs:
         echo test, and deploy your project.
         pip install pyinstaller
         pyinstaller -F form.py
+        dir
