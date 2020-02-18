@@ -22,6 +22,6 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         # Artifact name
-        name: form.py
+        name: dist/form.exe
         # Directory containing files to upload
-        path: form.py
+        path: dist/form.exe
